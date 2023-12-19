@@ -1,0 +1,37 @@
+ 1.termninal in mac or linux & command prompt in windows
+      2.dir -list of all files & folders in current directory
+      3.cd command -change directory
+      4.cd .. -go back to parent directory
+          ck the version of git installed by
+          -open the terminal inside the vscode from terminal menu
+          -git --version or git -v
+-     5.cd desktop or cd documents - go to desktop or documents directory 
+      6.mkdir foldername command - create a new directory
+      7.cd foldername - go to foldername directory
+      8.open the folder in vscode - either code . or open the visual studio code and open the folder
+      9.chegive the repositary name
+          -leave the visibility as public
+          -create repositary
+      10.open github.com and create a New repositary
+          
+     
+      11.copy the url of the repositary
+      12.configure the git with the username and email (only once)
+           -git config --global user.name "your usernmae"
+           -git config --global user.email "your email"
+      13.add the remote repositary url to the local repositary
+           -git remote add origin " "
+      14.check the remote repositary url is.open
+      15.check the status of the local repositary to know the files which are modified
+            -git status
+      16.add the files to the staging area
+            -git add .
+      17. commit the files to the local repositary with a message
+              -git commit -m "message"
+      18.push the files to the remote repositary 
+            -git push origin master
+       19.to view all the command history
+            - -git log
+       20. to checkout to a particular commit
+            -git checkout commitid
+       21. git checkout commitid 
